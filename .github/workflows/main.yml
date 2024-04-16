@@ -55,4 +55,4 @@ jobs:
           source: docker-compose.yml
           target: /home/admin/docker
       - name: Start containers
-        run: docker-compose -f "/home/admin/docker/docker-compose.yml" up -d --build
+        run: docker compose -f "/home/admin/docker/docker-compose.yml" up -d --build
