@@ -4,7 +4,7 @@ body {
 #main-navbar {
   display: flex;
   gap: 5;
-  list-style: "none";
+  list-style: none;
 }
 #banner {
   display: flex;
