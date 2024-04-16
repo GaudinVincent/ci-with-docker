@@ -51,6 +51,5 @@ jobs:
           host: ec2-54-147-246-187.compute-1.amazonaws.com
           username: admin
           key: ${{ secrets.ssh_secret }}
-          script: |
-            docker pull ghcr.io/gaudinvincent/ci-with-docker:main
-            docker run -d --restart=always -p 80:80 ghcr.io/gaudinvincent/ci-with-docker:main
+          source: docker-compose.yml
+          target: /home/admin/docker
