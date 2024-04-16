@@ -3,7 +3,7 @@ body {
 }
 #main-navbar {
   display: flex;
-  gap: 5;
+  gap: 3%;
   list-style: none;
 }
 #banner {
