@@ -2,4 +2,4 @@ services:
   helloworld:
     image: ghcr.io/gaudinvincent/ci-with-docker:main
     ports:
-      - "81:80"
+      - "80:80"
